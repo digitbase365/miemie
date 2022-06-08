@@ -204,7 +204,7 @@ section#areas .practice-areas .icon img{
     width: 100%;
     background-color: #c18e3c;
     position: relative;
-    top: 46px;
+    top: 49px;
     z-index: 9;
   }
 
@@ -247,6 +247,7 @@ section#areas .practice-areas .icon img{
     transition: all .5s ease-in-out;
     position: absolute; 
     right: 3px;
+    top: 1%;
   }
   .menu .burger,
   .menu .burger::before,
