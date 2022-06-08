@@ -14,16 +14,16 @@
 a{
   text-decoration: none;
   outline: none;
-} 
-p{
-  /* font-family: 'Open Sans', 'Helvetica Neue', sans-serif; */
-}
+}  
 #header{ 
   padding: 0; 
   position: absolute; 
   z-index: 3;
   width: 100%;
 } 
+#header .hide-desktop{
+  display: none;
+}
 #header nav{
   padding: 0 7em;
   display: flex;
@@ -110,6 +110,7 @@ section#areas .practice-areas .icon img{
 
 
 /* *************FOOTER SECTION********************* */
+
   footer#footer .col-md-6{ 
     /* font-family: 'Rubik', sans-serif; */
 
@@ -140,24 +141,145 @@ section#areas .practice-areas .icon img{
 
 
 
+
+
+
+
+
+
 /* ///////////////  MOBILE RULESET //////////////////// */
 @media screen and (max-width: 991px){ 
   .hide-mobile{
     display: none;
   }
+  #header{
+    overflow: hidden;
+  }
+  #header .hide-desktop{
+    display: block;
+  }
+
   #header nav{ 
-    padding: 0 7em; 
+    padding: 0; 
     justify-content: center;
+    align-items: flex-end;
     padding-top: 5px;
+    padding-right: 12px;
+    flex-direction: column;
+    position: relative;
+    padding-top: 35px; 
+    width: 80%;
+    height: 80vh;
+    right: -100%;
+    float: right;
+    background: rgba(0, 0, 0, 0.85);
+    transition: right .75s ease-out;
+  }
+  #header nav.swish{  
+    right: 0; 
   }
   .brand-icon{  
-    flex-basis: 40%; 
+    flex-basis: 20%; 
   } 
   .brand-icon img{
+    margin-top: 4px;
+    width: 18%; 
+  } 
+   #header .brand-icon{
+    position: absolute;  
+    width: 100%; 
+    z-index: 9; 
+    margin: 0 auto; 
+    justify-content: center;
+    /* background: rgba(0, 0, 0, 0.85);  */
+
+  }  
+  #header .brand-icon .brand-name{  
+    height: 30px; 
+    transform: translateX(3%);
+    margin-top: 3px;
+  } 
+  .hr{
+    height: 1px;
     width: 100%;
+    background-color: #c18e3c;
+    position: relative;
+    top: 46px;
+    z-index: 9;
   }
-  #header .brand-name{     
-    transform: translateX(0%); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Hamburger Menu */
+  #header .menu.hide-desktop{
+    display: flex;
   }
+  
+  .menu{
+    width: 45px;
+    height: 35px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+    z-index: 99;
+    transition: all .5s ease-in-out;
+    position: absolute; 
+    right: 3px;
+  }
+  .menu .burger,
+  .menu .burger::before,
+  .menu .burger::after{
+    width: 27px;
+    height: 2.5px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: all .5s ease-in-out; 
+  }
+  .menu .burger::before,
+  .menu .burger::after{ 
+    content: "";
+    position: absolute;
+  }
+  .menu .burger::before{
+    transform: translateY(-9px);
+  }
+  .menu .burger::after{
+    transform: translateY(9px);
+  }
+
+  .menu.swish .burger{
+    transform: translateX(-50px);
+    background: transparent;
+  }
+  .menu.swish .burger::before{ 
+    transform: rotate(45deg) translate(35px, -35px);
+  } 
+  .menu.swish .burger::after{ 
+    transform: rotate(-45deg) translate(35px, 35px);
+  } 
+  /* End of Hamburger Menu */
 }
 /* ///////////////  END OF MOBILE RULESET //////////////////// */
