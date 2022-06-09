@@ -140,6 +140,32 @@ section#areas .practice-areas .icon img{
 /* *************END OF COPYRIGHT SECTION********************* */
 
 
+/* *****************ATTORNEY PAGE RULESET******************** */
+#atty .img{
+  position: relative;
+}
+/* #atty .img::before{  
+  position: absolute;
+  content: "FOUNDER";
+  width: 100px;
+  height: 25px;
+  top: 5px;
+  right: 0;
+  text-align: center;
+  font-size: .85rem;
+  font-weight: 700;
+  color: #c18e3c; 
+  border: 2px solid #c18e3c;
+  line-height: 1.5;
+  font-family: 'lustria';
+} */
+#atty .img img{
+  position: absolute;
+  bottom: 0; 
+}
+/* *****************END OF ATTORNEY PAGE RULESET******************** */
+
+
 
 
 
@@ -264,7 +290,7 @@ section#areas .practice-areas .icon img{
 
   /* Counter Section */
   #stats .row{  
-    margin-top: -120px;
+    margin-top: -150px;
   }
   /* End of Counter Section */
 }
