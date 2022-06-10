@@ -2,6 +2,7 @@
 let menu = document.querySelector('.menu')
 let burger = document.querySelector('.burger')
 let nav = document.querySelector('nav')
+let navlink = document.querySelectorAll('nav a')
 
 menu.addEventListener('click', ()=>{
     menu.classList.toggle('swish')
