@@ -8,7 +8,7 @@
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lustria&family=Maven+Pro:wght@400;500;700&family=Rubik:wght@300;400&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&family=Cormorant:wght@500;600;700&family=K2D:wght@100;200;300;400;600&family=Lustria&family=Maven+Pro:wght@400;500;700&family=Montserrat:wght@100;200;400&family=Overlock:wght@700;900&family=Rambla&family=Rubik:wght@300;400&family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="assets/fontawesome-free-5.15.1-web/css/all.min.css">
 
@@ -62,7 +62,7 @@
 					<div class="col-md-10 col-xl-5">
 					<div class="text">
 					<h2 data-aos="fade-up" data-aos-duration="1000">The future of law is digital. We're already there.</h2>
-					<p class="mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">With unmatched global expertise, we help clients thrive at the intersection of technology and law.</p>
+					<p id="hero-p" class="mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">With unmatched global expertise, we help clients thrive at the intersection of technology and law.</p>
 					<p><a href="#" class="btn btn-primary px-5 py-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Make An Appointment <span class="ion ion-ios-arrow-round-forward"></span></a></p>
 					</div>
 					</div>
@@ -79,7 +79,7 @@
 				<div class="col-md-10 col-xl-5">
 				<div class="text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="7000">
 				<h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="000">A modern law firm built to support businesses</h2>
-				<p class="mb-5">Our experienced partner-level solicitors provide expert legal advice and assistance to enable businesses to grow from start-up to scale-up and beyond.</p>
+				<p id="hero-p" class="mb-5">Our experienced partner-level solicitors provide expert legal advice and assistance to enable businesses to grow from start-up to scale-up and beyond.</p>
 				<p><a href="#" class="btn btn-primary px-5 py-3">Make An Appointment <span class="ion ion-ios-arrow-round-forward"></span></a></p>
 				</div>
 				</div>
@@ -95,8 +95,8 @@
 				<div class="row">
 				<div class="col-md-10 col-xl-5">
 				<div class="text" data-aos="fade-up" data-aos-duration="1000">
-				<h2>Corporate Lawyers Committed to Your Success</h2>
-				<p class="mb-5">Our success has been and continues to be achieved by offering client’s an unrivalled standard of service based on careful and accurate research of issues enabling us to offer pro-active advice reflecting the reality of situations.</p>
+				<h2>Corporate Lawyers Committed to your Success</h2>
+				<p id="hero-p" class="mb-5">Our success has been and continues to be achieved by offering client’s an unrivalled standard of service based on careful and accurate research of issues enabling us to offer pro-active advice reflecting the reality of situations.</p>
 				<p><a href="#" class="btn btn-primary px-5 py-3">Make An Appointment <span class="ion ion-ios-arrow-round-forward"></span></a></p>
 				</div>
 				</div>
@@ -115,7 +115,7 @@
 	<div class="counter-wrap d-flex justify-content-between align-items-center" data-aos="fade-up" data-aos-duration="1000">
 	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-lawyer"></span></div>
 	<div class="text">
-	<span class="d-block number gradient-text"><span id="count1" class="counter" data-count="4">0</span></span>
+	<span class="d-block number gradient-text"><span id="count2" class="counter" data-count="4">0</span></span>
 	<p>Qualified Lawyers</p>
 	</div>
 	</div>
@@ -160,7 +160,7 @@
 	<h2 class="mb-4">10 Years Of Experience In Legal Solutions</h2>
 	</div>
 	<div class="col-md-8 text-center mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-	<p>S. EFEJUKU & CO is a fully serviced law firm established and headed by Stephen Efejuku, Esq., an active member of the Warri Branch of the Nigeria Bar Association. Providing stellar legal counsel and representation to Businesses as well as Oil and Gas Communities for over 10 years. 
+	<p>S. EFEJUKU & CO is a fully serviced law firm established and headed by Stephen Efejuku, Esq., an active member of the Warri Branch of the Nigeria Bar Association. Providing stellar legal counsel and representation to Companies, Businesses as well as Oil and Gas Communities for over 10 years. 
 
 		<p>
 			When we set up Miemie Chambers, we wanted to be our clients’ guiding light and have them think of us as trusted, practical and attentive.
@@ -285,14 +285,14 @@
 	</div>
 	<div class="col-md-6 d-flex align-items-center">
 
-	<form id="eval" action="https://formspree.io/f/xknyeowr" method="POST" class="appointment" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+	<form id="eval" action="https://formspree.io/f/xknyeowr" method="POST" class="appointment" autocomplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
 		<span class="subheading">Drop A Message</span>
 		<h2 class="mb-4 appointment-head">Free Case Evaluation</h2>
 		<div class="row">
 		<div class="col-md-12 col-lg-6">
 		<div class="form-group">
 		<label for="name">Your Full Name</label>
-		<input type="text" class="form-control" placeholder="Your Full Name" name="Name">
+		<input type="text" class="form-control" placeholder="Full Name" name="Name">
 		</div>
 		</div>
 		<div class="col-md-12 col-lg-6">
@@ -305,16 +305,15 @@
 		<div class="form-group">
 		<label for="subject">Select Subject</label>
 		<div class="form-field">
-		<div class="select-wrap">
-		<div class="icon"><span class="fa fa-chevron-down"></span></div>
-		<select name="Practice Area" id="" class="form-control">
-		<option value="">Practice Areas</option>
-		<option value="">Business Law</option>
-		<option value="">Criminal Law</option>
-		<option value="">Family Law</option>
-		<option value="">Judicial Law</option>
-		<option value="">Personal Injury</option>
-		<option value="">Real Estate Law</option>
+		<div class="select-wrap"> 
+		<select name="Practice" id="practice" class="form-control">
+			<option value="Practice Areas">Choose Practice Area</option>
+			<option value="Business Law">Business Law</option>
+			<option value="Criminal Law">Criminal Law</option>
+			<option value="Family Law">Family Law</option>
+			<option value="Judicial Law">Judicial Law</option>
+			<option value="Personal Injury">Personal Injury</option>
+			<option value="Real Estate Law">Real Estate Law</option>
 		</select>
 		</div>
 		</div>
@@ -327,9 +326,17 @@
 		</div>
 		</div>
 		<div class="col-md-12">
-		<input type="submit" value="Send message" class="btn btn-primary py-3 px-4 rounded">
+		<input type="submit" value="Send message" class="btn btn-primary py-3 px-4 rounded" onclick="clearForm()">
 		</div>
 		</div>
+
+		<!-- <script>
+			let form = document.getElementById("eval");
+			function clearForm(){
+				form.reset();
+			}
+		</script> -->
+
 	</form>
 	</div>
 	</div>
@@ -528,7 +535,7 @@
 	</h2>
 	<p class="profi">
 
-		S. Efejuku Chambers is a limited liability firm registered in Nigeria, authorized and regulated by the Nigerian Bar Association: NBA number 00330978.
+		S. Efejuku Chambers is a limited liability firm registered in Nigeria, authorized and regulated by the Nigerian Bar Association: NBA license number SCN084317.
 		
 		</p>
 	<ul class="ftco-footer-social list-unstyled mt-2">
@@ -580,14 +587,18 @@
 	<div class="container-xl">
 	<div class="row">
 	<div class="col-md-12 text-center">
-	<p class="mb-0">Copyright &copy; 2020 - <script>document.write(new Date().getFullYear());</script> | All rights reserved |  MieMie Chambers</a></p>
+	<p class="mb-0">Copyright &copy; 2020 - <script>document.write(new Date().getFullYear());</script> | All Rights Reserved |  MieMie Chambers</a></p>
 	</div>
 	</div>
 	</div>
 	</div>
 	</footer>
 
-
+  <!--Whatsapp top--> 
+	<div class="scroll-top top" id="top">
+		<a href="index.html"><i class="fa fa-chevron-up"></i></a>
+	</div>
+<!--Whatsapp top end-->
 </main>
 
 	<script src="./js/esq.js"></script>
