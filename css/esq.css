@@ -92,6 +92,42 @@ a{
   font-weight: 700;
 }
 
+#subheading{
+  /* color: rebeccapurple; */
+}
+#subheading{
+  position: relative;
+  display: inline-block;   
+  margin-bottom: 15px;
+}
+#experience #subheading img{ 
+  position: absolute;
+  top: 5px;  
+  right: 5px; 
+}
+#areas #subheading img{ 
+  position: absolute;
+  top: 5px; 
+  /* left: 0; */
+  right: 50px; 
+}
+#performance #subheading img{ 
+  position: absolute;
+  top: 5px; 
+  /* left: 0; */
+  right: 65px; 
+}
+#cases #subheading img{ 
+  position: absolute;
+  top: 5px;  
+  right: -20px;
+}
+#testimonial #subheading img{ 
+  position: absolute;
+  top: 5px; 
+  /* left: 0; */
+  right: 23px; 
+}
 
 /* *************COUNTING SECTION********************* */
 #stats.ftco-section.ftco-counter{ 
@@ -230,6 +266,21 @@ footer#footer .fa-chevron-up{
 #atty .img img{
   position: absolute;
   bottom: 0; 
+}
+#atty p{
+  text-align: left;
+} 
+#atty .col-md-6{ 
+
+}
+#atty .col-md-6 .text{
+  /* border: 1px solid dimgrey; */
+  border: 1px solid #cb9742;  
+  border-top: 0;
+  height: 490px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0 10px; 
 }
 /* *****************END OF ATTORNEY PAGE RULESET******************** */
 
