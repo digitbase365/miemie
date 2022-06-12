@@ -140,13 +140,20 @@ a{
 
 
 /* *************EXPERIENCE SECTION********************* */
- 
+#experience .video-image{
+  cursor: pointer;
+}
 #experience video{
   object-fit: cover;
 }
 #experience .row p{
   font-weight: 200;
 }
+#experience .icon{
+  display: inline-block;
+  position: absolute;  
+  pointer-events: none;
+}  
  
 /* *************END OF EXPERIENCE SECTION********************* */
 
@@ -270,10 +277,7 @@ footer#footer .fa-chevron-up{
 }
 #atty p{
   text-align: left;
-} 
-#atty .col-md-6{ 
-
-}
+}  
 #atty .col-md-6 .text{
   /* border: 1px solid dimgrey; */
   border: 1px solid #cb9742;  
@@ -285,13 +289,21 @@ footer#footer .fa-chevron-up{
 }
 /* *****************END OF ATTORNEY PAGE RULESET******************** */
 
-
-
-
-
-
-
-
+/* 
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
 
 /* ///////////////  MOBILE RULESET //////////////////// */
 @media screen and (max-width: 991px){  

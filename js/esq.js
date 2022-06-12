@@ -1,7 +1,7 @@
 // Morphing Burger Icon{}
-let menu = document.querySelector('.menu')
-let burger = document.querySelector('.burger')
-let nav = document.querySelector('nav')
+let menu = document.getElementById('menu')
+let burger = document.getElementById('burger')
+let nav = document.getElementById('nav')
 let navlink = document.querySelectorAll('nav a')
 
 menu.addEventListener('click', ()=>{
@@ -19,7 +19,29 @@ navlink.forEach((item) => {
     });
 })
 
+// Click outside to close
+document.onclick = function(e){
+  e.stopPropagation()
+
+  if(e.target.id !== 'nav' && e.target.id !== 'menu'){
+    menu.classList.remove('swish')
+    nav.classList.remove('swish')
+  }
+}
+
 // End of Morphing Burger Icon{}
+
+
+// Play Icon Script 
+let vides = document.getElementById('vides')
+let vplay = document.getElementById('vplay')
+
+vides.addEventListener('click', (e)=>{
+  e.stopPropagation()
+  vides.classList.toggle('teleport')
+  vplay.classList.toggle('teleport')
+})
+// End of Play Icon Script
 
 
 // WHATSAPP top BOT SCRIPT****************************************//
