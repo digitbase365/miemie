@@ -76,7 +76,7 @@ a{
   width: 20%;
 }
 #header .brand-name{ 
-  margin: 0 auto;
+  margin: 2px auto;
   text-align: center;
   color: #fff;
   line-height: 1;  
@@ -130,6 +130,14 @@ a{
   right: 23px; 
 }
 
+/* *************HERO SLIDER SECTION********************* */
+
+section.slider-hero .hero-slider .text #hero-p{ 
+  text-shadow: 1px 1px 1px #000;
+}
+/* *************END OF HERO SLIDER SECTION********************* */
+
+
 /* *************COUNTING SECTION********************* */
 #stats.ftco-section.ftco-counter{ 
   /* padding: 5em 0; */
@@ -171,6 +179,12 @@ section#areas .row p{
   font-weight: 100;
 }
 /* **************END OF FORM CONTROL*************************** */
+
+/* *************TESTIMONIAL SECTION********************* */
+#testimonial p.msg{
+  font-weight: 200;
+}
+/* *************END OF TESTIMONIAL SECTION************** */
 
 
 /* *************FOOTER SECTION********************* */
@@ -277,6 +291,9 @@ footer#footer .fa-chevron-up{
 }
 #atty p{
   text-align: left;
+  font-weight: 200;
+  color: #000;
+  color: #3F403F;
 }  
 #atty .col-md-6 .text{
   /* border: 1px solid dimgrey; */
