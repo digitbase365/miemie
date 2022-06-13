@@ -192,6 +192,7 @@ section#areas .row p{
   footer#footer .container-xl p.profi{ 
     font-weight: 100; 
     transform: translateY(-1.1em);
+    margin-top: 12px;
   }
   footer#footer ul{
     font-weight: 100;
