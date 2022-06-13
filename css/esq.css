@@ -22,7 +22,7 @@ a{
 #header{ 
   padding: 0; 
   position: absolute; 
-  z-index: 3;
+  z-index: 1;
   width: 100%;
 } 
 #header .hide-desktop{
@@ -50,7 +50,7 @@ a{
   font-family: 'Maven Pro', sans-serif;
   font-weight: 500;
   font-size: 1.025rem;
-  z-index: 5;
+  z-index: 1;
 
 }
 #header nav .navlink:hover{
@@ -84,7 +84,7 @@ a{
   width: fit-content;
   transform: translateX(-45%);
   font-weight: 600;
-  z-index: 5;
+  z-index: 1;
 }
 #header .brand-name small{
   display:block;
@@ -92,10 +92,7 @@ a{
   color:#c18e3c;
   font-weight: 700;
 }
-
-#subheading{
-  /* color: rebeccapurple; */
-}
+ 
 #subheading{
   position: relative;
   display: inline-block;   
@@ -108,14 +105,12 @@ a{
 }
 #areas #subheading img{ 
   position: absolute;
-  top: 5px; 
-  /* left: 0; */
+  top: 5px;  
   right: 50px; 
 }
 #performance #subheading img{ 
   position: absolute;
-  top: 5px; 
-  /* left: 0; */
+  top: 5px;  
   right: 65px; 
 }
 #cases #subheading img{ 
@@ -125,8 +120,7 @@ a{
 }
 #testimonial #subheading img{ 
   position: absolute;
-  top: 5px; 
-  /* left: 0; */
+  top: 5px;  
   right: 23px; 
 }
 
@@ -135,13 +129,11 @@ a{
 section.slider-hero .hero-slider .text #hero-p{ 
   text-shadow: 1px 1px 1px #000;
 }
+
 /* *************END OF HERO SLIDER SECTION********************* */
 
 
-/* *************COUNTING SECTION********************* */
-#stats.ftco-section.ftco-counter{ 
-  /* padding: 5em 0; */
-}
+/* *************COUNTING SECTION********************* */ 
 /* *************END OF COUNTING SECTION********************* */
 
 
@@ -334,8 +326,13 @@ footer#footer .fa-chevron-up{
     left: 0;
     width: 100%;
     height: 59px;
-    background: rgba(0, 0, 0, 0.88);
+    background: rgba(0, 0, 0, 0.78);
+    z-index: 1;
   }
+  #header{   
+    overflow: hidden; 
+    z-index: unset; 
+  }  
   #header .hide-desktop{
     display: block;
   }
@@ -351,10 +348,10 @@ footer#footer .fa-chevron-up{
     padding-top: 35px; 
     width: 60%;
     height: 90vh;
-    right: -100%;
-    float: right;
+    right: -100%; 
     background: rgba(0, 0, 0, 0.85);
-    transition: right .75s ease-out;
+    transition: right .75s ease-out; 
+    z-index: 1;
   }
   #header nav.swish{  
     right: 0; 
@@ -369,7 +366,7 @@ footer#footer .fa-chevron-up{
    #header .brand-icon{
     position: absolute;  
     width: 100%; 
-    z-index: 9; 
+    z-index: 2; 
     margin: 0 auto; 
     justify-content: center;
     /* background: rgba(0, 0, 0, 0.85);  */
@@ -386,7 +383,7 @@ footer#footer .fa-chevron-up{
     background-color: #c18e3c;
     position: relative;
     top: 60px;
-    z-index: 9; 
+    z-index: 2; 
   }
  
 
@@ -399,8 +396,7 @@ footer#footer .fa-chevron-up{
     color: #eef; 
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
-    font-size: 1.025rem;
-    z-index: 5;
+    font-size: 1.025rem; 
     padding: 5px 0;
     margin: 15px 0;
   }
@@ -422,7 +418,7 @@ footer#footer .fa-chevron-up{
     align-items: center;
     justify-content: center;
     cursor: pointer; 
-    z-index: 99;
+    z-index: 9;
     transition: all .5s ease-in-out;
     position: absolute; 
     right: 3px;
@@ -489,28 +485,12 @@ footer#footer .fa-chevron-up{
   /* End of Attorney Section */
 }
 
-@media screen and (max-width: 400px){  
-  .hide-mobile{
-    display: none;
-  }
-  #header{ 
-    /* background: rgba(0, 0, 0, 0.85); */
-    /* height: 49px;  */
-    overflow: hidden;
-    position: absolute;
-  }
-  #header::before{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 49px;
-    background: rgba(0, 0, 0, 0.88);
-  }
-  #header .hide-desktop{
-    display: block;
-  }
+/* ///////////////PHONE RULESET////////////////////////// */
+
+@media screen and (max-width: 400px){   
+  #header::before{ 
+    height: 49px; 
+  } 
 
   #header nav{ 
     padding: 0; 
@@ -521,7 +501,7 @@ footer#footer .fa-chevron-up{
     flex-direction: column;
     position: relative;
     padding-top: 35px; 
-    width: 80%;
+    width: 72%;
     height: 90vh;
     right: -100%;
     float: right;
@@ -540,8 +520,7 @@ footer#footer .fa-chevron-up{
   } 
    #header .brand-icon{
     position: absolute;  
-    width: 100%; 
-    z-index: 9; 
+    width: 100%;  
     margin: 0 auto; 
     justify-content: center;
     /* background: rgba(0, 0, 0, 0.85);  */
@@ -557,8 +536,7 @@ footer#footer .fa-chevron-up{
     width: 100%;
     background-color: #c18e3c;
     position: relative;
-    top: 49px;
-    z-index: 9; 
+    top: 49px; 
   }
  
 
@@ -571,8 +549,7 @@ footer#footer .fa-chevron-up{
     color: #eef; 
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
-    font-size: 1.025rem;
-    z-index: 5;
+    font-size: 1.025rem; 
     padding: 5px 0;
     margin: 10px 0; 
   }
@@ -583,8 +560,7 @@ footer#footer .fa-chevron-up{
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer; 
-    z-index: 99;
+    cursor: pointer;  
     transition: all .5s ease-in-out;
     position: absolute; 
     right: 3px;
