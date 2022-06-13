@@ -178,7 +178,12 @@ section#areas .row p{
 }
 /* *************END OF TESTIMONIAL SECTION************** */
 
-
+/* /////////////NEED ADVISER SECTION///////////// */
+#need .btn-white{
+  text-transform: unset;
+  /* font-size: .85rem; */
+}
+/* /////////////END OF NEED ADVISER SECTION///////////// */
 /* *************FOOTER SECTION********************* */
 
   footer#footer{
@@ -295,6 +300,10 @@ footer#footer .fa-chevron-up{
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 0 10px; 
+}
+#atty_advise .btn-white span{
+  text-transform: none;
+  letter-spacing: .5px;
 }
 /* *****************END OF ATTORNEY PAGE RULESET******************** */
 
@@ -474,10 +483,17 @@ footer#footer .fa-chevron-up{
   }
   /* End of Counter Section */
 
+  /* Footer Section */
+  footer#footer .ftco-heading-2{
+    margin-bottom: 5px;
+  }
   #copyr{ 
     font-size: .7rem; 
     padding: .1em 0;
   }
+  /*End of  Footer Section */
+
+
   /* Attorney Section */
   #atty .row{
     margin-top: -125px;
@@ -620,10 +636,18 @@ footer#footer .fa-chevron-up{
     font-size: .7rem; 
     padding: .1em 0;
   }
+
+
   /* Attorney Section */
   #atty .row{
     margin-top: -125px;
   }
   /* End of Attorney Section */
+
+
+
+  .scroll-top { 
+    right: 12px; 
+  }
 }
 /* ///////////////  END OF MOBILE RULESET //////////////////// */
