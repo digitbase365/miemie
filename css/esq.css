@@ -56,8 +56,7 @@ a{
 #header nav .navlink:hover{
   color: #d79700;
 }
-#header nav .navlink.con{
-  border: 2px solid #d79700;
+#header nav .navlink.con{ 
   border: 1px solid #c18e3c;
   padding: .1rem 1.2rem; 
   font-weight: 300;
@@ -196,6 +195,9 @@ section#areas .row p{
   }
   footer#footer ul{
     font-weight: 100;
+  }
+  footer#footer ul li .fab{
+    font-size: 1.2rem;
   }
   
   #copyr{
@@ -378,8 +380,7 @@ footer#footer .fa-chevron-up{
     width: 100%; 
     z-index: 2; 
     margin: 0 auto; 
-    justify-content: center;
-    /* background: rgba(0, 0, 0, 0.85);  */
+    justify-content: center; 
 
   }  
   #header .brand-icon .brand-name{  
@@ -413,8 +414,7 @@ footer#footer .fa-chevron-up{
   #header .navlink i{
     display: inline;
     margin-left: 10px;
-    color: #c18e3c;
-    color: #da9700;
+    color: #c18e3c; 
   }
   #header nav .navlink.con{
     border: 0;
