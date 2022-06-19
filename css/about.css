@@ -56,8 +56,8 @@ main#about{
     font-size: 1.41rem;
   }
   #about .pedigree aside p{
-    font-weight: 100;
-    color: #797a7e;
+    font-weight: 150;
+    color: #4d4d50;
     font-size: 1rem;
   }
   #about aside .keynote{
@@ -158,10 +158,9 @@ main#about{
   #about .pedigree aside p{ 
     font-size: .96rem;
   }
-  #about aside .keynote{
-    min-height: 150px;
-    width: 320px; 
-    padding-left: .85em;  
+  #about aside .keynote p{
+    min-height: 100px;
+    max-width: 300px;   
   }
 
   #about .history .gallery{ 
