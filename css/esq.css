@@ -406,11 +406,14 @@ footer#footer .fa-chevron-up{
     position: relative;
     padding-top: 35px; 
     width: 60%;
-    height: 90vh;
+    height: 80vh;
     right: -100%; 
     background: rgba(0, 0, 0, 0.85);
     transition: right .75s ease-out; 
     z-index: 1;
+    border-bottom: 3px solid #c18e3c;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
   }
   #header nav.swish{  
     right: 0; 
@@ -621,11 +624,11 @@ footer#footer .fa-chevron-up{
     top: 49px; 
   }
   .medallion{  
-    width: 30px;
-    height: 30px;    
+    width: 35px;
+    height: 35px;    
   }
   #attoy.hero-wrap h1{
-    font-size: 1.85rem; 
+    font-size: 2rem; 
   }
 
   /* Hamburger Menu */

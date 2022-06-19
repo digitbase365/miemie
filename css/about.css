@@ -122,14 +122,14 @@ main#about{
     transform: translateY(-4%);
   }
   #about .medallion{  
-    width: 30px;
-    height: 30px;    
+    width: 35px;
+    height: 35px;    
     }
     .medallion img{ 
       width: 45%;
     }
   #about .hero-wrap h1{
-    font-size: 1.8rem; 
+    font-size: 2rem; 
   }
   #about .hero-wrap p{  
     width: 96%;  
