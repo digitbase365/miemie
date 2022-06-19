@@ -1,5 +1,5 @@
 :root{
-  --pri-color: #48A9A6;
+  --pri-color: #c18e3c;
   --sec-color: #FFB49A;
   --txt-color: #2d243d; 
   --acn-color: #00adbb; 
@@ -485,9 +485,23 @@ footer#footer .fa-chevron-up{
   /* End of Counter Section */
 
   /* Footer Section */
-  footer#footer .ftco-heading-2{
-    margin-bottom: 5px;
+  footer#footer .col-md-6{
+    margin-bottom: 20px;
   }
+  footer#footer .container-xl p.profi{
+    margin-top: 20px; 
+  }
+  footer#footer .ftco-heading-2{
+    font-size: 1.1rem; 
+    margin-bottom: 15px;
+  } 
+  footer#footer p{
+    font-size: 0.85rem;
+  }
+  footer#footer ul li{
+    margin-bottom: 3px;
+  }
+  
   #copyr{ 
     font-size: .7rem; 
     padding: .1em 0;
@@ -633,7 +647,7 @@ footer#footer .fa-chevron-up{
   }
   /* End of Counter Section */
 
-  #copyr{ 
+  #copyr .row p{ 
     font-size: .7rem; 
     padding: .1em 0;
   }
