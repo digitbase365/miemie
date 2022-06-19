@@ -183,15 +183,18 @@ section#areas .row p{
   /* font-size: .85rem; */
 }
 /* /////////////END OF NEED ADVISER SECTION///////////// */
-/* *************FOOTER SECTION********************* */
+/* *************LAPTOP FOOTER SECTION********************* */
 
   footer#footer{
   padding-top: 1.45em;
   }
   footer#footer .container-xl p.profi{ 
     font-weight: 100; 
+    font-size: .9rem;
     transform: translateY(-1.1em);
-    margin-top: 12px;
+    margin-top: 10px;
+    padding-right: 20px;
+    line-height: 1.35;
   }
   footer#footer ul{
     font-weight: 100;
@@ -202,7 +205,8 @@ section#areas .row p{
   
   #copyr{
     background-color: #c18e3c;
-    color: #fff;
+    color: #eef;
+    /* color: #e0f7df; */
     font-family: 'K2D', sans-serif;
     font-size: .75rem;
     font-weight: 100;
@@ -488,15 +492,13 @@ footer#footer .fa-chevron-up{
   footer#footer .col-md-6{
     margin-bottom: 20px;
   }
-  footer#footer .container-xl p.profi{
-    margin-top: 20px; 
-  }
+
   footer#footer .ftco-heading-2{
     font-size: 1.1rem; 
     margin-bottom: 15px;
   } 
   footer#footer p{
-    font-size: 0.85rem;
+    font-size: 0.89rem;
   }
   footer#footer ul li{
     margin-bottom: 3px;
@@ -647,6 +649,13 @@ footer#footer .fa-chevron-up{
   }
   /* End of Counter Section */
 
+
+  /* Mobile Footer */
+  footer#footer .container-xl p.profi{
+    margin-top: 20px; 
+    padding-right: 0px;
+
+  }
   #copyr .row p{ 
     font-size: .7rem; 
     padding: .1em 0;
