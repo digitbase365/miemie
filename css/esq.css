@@ -531,6 +531,12 @@ footer#footer .fa-chevron-up{
   }
   /* End of Counter Section */
 
+  /* Experience Section */
+  p.lefta{
+    text-align: left;
+  }
+  /* End of Experience Section */
+
   /* Footer Section */
   footer#footer .col-md-6{
     margin-bottom: 20px;
@@ -614,7 +620,13 @@ footer#footer .fa-chevron-up{
     position: relative;
     top: 49px; 
   }
- 
+  .medallion{  
+    width: 30px;
+    height: 30px;    
+  }
+  #attoy.hero-wrap h1{
+    font-size: 1.85rem; 
+  }
 
   /* Hamburger Menu */
   #header .menu.hide-desktop{
