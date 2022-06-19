@@ -19,7 +19,7 @@ main#about{
   
     background-image: linear-gradient(180deg, #d39e49, #724906);
     }
-    .medallion img{ 
+    #about .medallion img{ 
       width: 50%;
     }
   #about .hero-wrap h1{

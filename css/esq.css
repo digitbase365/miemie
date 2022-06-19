@@ -29,12 +29,12 @@ a{
   display: none;
 }
 #header nav{
-  padding: 0 7em;
+  padding: 0 3% 0 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #c18e3c;
-  position: relative;
+  position: relative; 
 }
 #header nav::before{
   position: absolute;
@@ -69,7 +69,8 @@ a{
 .brand-icon{ 
   width: fit-content;  
   text-align: center;
-  flex-basis: 30%;
+  flex-basis: 30%; 
+  /* margin-left: 5%; */
 } 
 .brand-icon img{
   width: 20%;
@@ -81,7 +82,7 @@ a{
   line-height: 1;  
   font-family: 'Lustria', serif; 
   width: fit-content;
-  transform: translateX(-45%);
+  /* transform: translateX(-45%); */
   font-weight: 600;
   z-index: 1;
 }
@@ -89,9 +90,24 @@ a{
   display:block;
   font-size:11px;
   color:#c18e3c;
-  font-weight: 700;
-}
- 
+  font-weight: 700; 
+} 
+
+.medallion{  
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+
+  background-image: linear-gradient(180deg, #d39e49, #724906);
+  }
+  .medallion img{ 
+    width: 70%;
+  }
+
 #subheading{
   position: relative;
   display: inline-block;   
@@ -162,6 +178,7 @@ section#areas .practice-areas .icon img{
 }
 section#areas .row p{
   font-weight: 200;
+  color: #797a7e;
 }
 /* *************END OF AREAS SECTION********************* */
 
@@ -174,6 +191,7 @@ section#areas .row p{
 /* *************TESTIMONIAL SECTION********************* */
 #testimonial p.msg{
   font-weight: 200;
+  color: #797a7e;
 }
 /* *************END OF TESTIMONIAL SECTION************** */
 
@@ -201,6 +219,31 @@ section#areas .row p{
   }
   footer#footer ul li .fab{
     font-size: 1.2rem;
+  }
+  .footimg{ 
+    width: fit-content;
+    transform: translateX(18%);
+  }
+  span.brand small{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  span.brand small::before, span.brand small::after
+  {
+   position: absolute;
+   content: "";
+   width: 25%;
+   height: 1.5px;
+   background-color: #c18e3c;
+   border-radius: 10px;
+  }
+  span.brand small::before{
+    left: 0;
+  }
+  span.brand small::after{
+    right: 0;
   }
   
   #copyr{
