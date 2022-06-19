@@ -8,8 +8,7 @@ main#about{
   #about .hero-wrap .container{ 
     transform: translateY(12.5%);
   }
-  #about .medallion{ 
-    background-color: #635380;
+  #about .medallion{  
     width: 50px;
     height: 50px;
     margin: auto;
@@ -90,16 +89,15 @@ main#about{
     /* justify-content: space-between; */
     gap: 18px;
   }
-  .gallery .imgBx{
+  .gallery .box .imgBx{
     width: 300px;
-    height: 240px;
+    height: 240px; 
     border: 8px solid #e4e2d4;
   }
   .gallery .imgBx img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-
+    object-fit: cover; 
   }
 
 
@@ -141,7 +139,7 @@ main#about{
   #about .pedigree{
     min-height: 60vh; 
     width: 95%; 
-    transform: translateY(-4%); 
+    transform: translateY(-4%);  
     padding: 50px 5%;
   }
 
@@ -180,9 +178,7 @@ main#about{
     flex-direction: unset; 
     gap: 7px;
   }
-  .gallery .imgBx{
-    width: 300px;
-    height: 240px;
+  .gallery .imgBx{ 
     border: 4px solid #e4e2d4;
   }
 
