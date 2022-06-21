@@ -171,8 +171,9 @@ main#about{
     border: 4px solid #e4e2d4;
     border-radius: 0;
     width: 100%;
-    height: 500px;
+    height: 700px;
   }
+ 
   .gallery .box{ 
     display: flex;
     flex-direction: unset; 
