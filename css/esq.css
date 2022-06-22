@@ -24,6 +24,9 @@ a{
   position: absolute; 
   z-index: 1;
   width: 100%;
+}
+.hide-desktop{
+  display: none;
 } 
 #header .hide-desktop{
   display: none;
@@ -159,7 +162,7 @@ section.slider-hero .hero-slider .text #hero-p{
   cursor: pointer;
 }
 #experience video{
-  object-fit: cover;
+  object-fit: cover; 
 }
 #experience .row p{
   font-weight: 200;
@@ -378,6 +381,9 @@ footer#footer .fa-chevron-up{
   .hide-mobile{
     display: none;
   } 
+  video.hide-mobile{
+    display: block;
+  }
   #header::before{
     position: absolute;
     content: "";
@@ -573,6 +579,13 @@ footer#footer .fa-chevron-up{
 /* ///////////////PHONE RULESET////////////////////////// */
 
 @media screen and (max-width: 400px){   
+  video.hide-mobile{
+    display: none;
+  }
+  .hide-desktop{
+    display: block;
+  }
+
   #header::before{ 
     height: 49px; 
   } 
