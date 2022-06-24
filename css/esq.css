@@ -573,6 +573,7 @@ footer#footer .fa-chevron-up{
   #atty .row{
     margin-top: -125px;
   }
+
   /* End of Attorney Section */
 }
 
@@ -736,6 +737,12 @@ footer#footer .fa-chevron-up{
   /* Attorney Section */
   #atty .row{
     margin-top: -125px;
+  }
+  #attoy.hero-wrap{
+    height: 38vh;  
+  } 
+  #attoy .container .pt-5{  
+    margin-top: -65px;
   }
   /* End of Attorney Section */
 

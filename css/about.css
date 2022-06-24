@@ -78,10 +78,11 @@ main#about{
   #about .gallery .video-image{
     border: 8px solid #e4e2d4;
     width: 320px;
-    height: 500px;
+    height: 460px;
   }
   .gallery .video-image video{
     object-fit: cover; 
+    width: 100%;
   }
   .gallery .box{ 
     display: flex;
@@ -91,13 +92,13 @@ main#about{
   }
   .gallery .box .imgBx{
     width: 300px;
-    height: 240px; 
+    height: 220px; 
     border: 8px solid #e4e2d4;
   }
   .gallery .imgBx img{
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    /* object-fit: cover;  */
   }
 
 
