@@ -14,6 +14,9 @@ html{
   padding: 0;
   box-sizing: border-box;  
 }
+section{
+  overflow: hidden;
+}
 
 a{
   text-decoration: none;
@@ -175,7 +178,7 @@ section.slider-hero .hero-slider .text #hero-p{
  
 /* *************END OF EXPERIENCE SECTION********************* */
 
-/* *************AREAS SECTION********************* */
+/* *************AREAS SECTION********************* */ 
 section#areas .practice-areas .icon img{   
   width: 56%;
 }
