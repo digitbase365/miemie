@@ -155,6 +155,8 @@ section.slider-hero .hero-slider .text #hero-p{
 
 
 /* *************COUNTING SECTION********************* */ 
+#stats.ftco-counter.section-counter{ 
+}
 /* *************END OF COUNTING SECTION********************* */
 
 
@@ -719,8 +721,8 @@ footer#footer .fa-chevron-up{
   /* End of Hero Section */
 
   /* Counter Section */
-  #stats .row{  
-    margin-top: -150px;
+  #stats .counter-wrap{  
+    margin-top: 50px; 
   }
   /* End of Counter Section */
 
